@@ -63,6 +63,7 @@ font-size: 48px;
 color: #e5e7eb;
 size: 18px;
 font-weight: lighter;
+margin-bottom: 8px;
 }
 
 .image-placeholder {
@@ -77,6 +78,13 @@ color: #e5e7eb;
 
 button {
 margin-top: 4px;
+border-radius: 8px;
+background-color: #3882f6;
+padding: 10px 24px;
+border: 2px;
+color: #f9faf8;
+font-size: 18px;
+font-weight: bold;
 }
 
 .info {
@@ -119,4 +127,80 @@ gap: 60px;
     max-width: 200px;
     text-align: center;
     padding-bottom: 80px;
+}
+
+.quotes {
+    min-height: 300px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 420px;
+    flex-direction: column;
+}
+
+.quote-text {
+font-weight: lighter;
+font-size: 36px;
+font-style: italic;
+color: #1f2937
+}
+
+.quote-src {
+font-size: 24px;
+font-weight: bold;
+color: #1f2937;
+align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 45px 220px;
+    min-width: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+    padding: 45px 220px;
+    color: #f9faf8;
+    justify-content: space-between;
+    gap: 150px;
+    min-width: 0;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-main {
+font-weight: bold;
+font-size: 28px;
+}
+
+.left-sub {
+font-weight: lighter;
+font-size: 18px;
+color: #e5e7eb;
+}
+
+#SignUpButton {
+    border: 2px solid #f9faf8;
+    
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #f9faf8;
+    align-items: center;
+    min-height: 100px;
 }
